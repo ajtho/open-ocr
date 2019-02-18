@@ -29,7 +29,7 @@ services:
     dns: ["8.8.8.8"]
     depends_on:
       - rabbitmq
-    command: "/opt/open-ocr/open-ocr-preprocessor -amqp_uri amqp://admin:Phaish9ohbaidei6oole@rabbitmq/ -preprocessor convert-pdf"
+    command: "/opt/open-ocr/open-ocr-preprocessor -amqp_uri amqp://admin:HKGyyiLGIy7t87or732r92r@rabbitmq/ -preprocessor convert-pdf"
 
   # Start OCR worker
   openocrworker:
