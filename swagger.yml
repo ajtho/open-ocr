@@ -5,8 +5,8 @@ info:
   title: OpenOCR 
   description: OpenOCR is a wrapper around Tesseract easily deployable as a service
   contact:
-    name: Traun Leyden
-    email: traun.leyden@gmail.com
+    name: LexSearch
+    email: alex@lexsearch.co.uk
   license:
      name: Apache2 License
 schemes:
