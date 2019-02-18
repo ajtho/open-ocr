@@ -33,7 +33,7 @@ services:
 
   # Start OCR worker
   openocrworker:
-    image: lex/${OPEN_OCR_INSTANCE}
+    image: tleyden5iwx/${OPEN_OCR_INSTANCE}
     volumes:
       - ./scripts/:/opt/open-ocr/
     dns: ["8.8.8.8"]
@@ -43,7 +43,7 @@ services:
 
   # Start http server
   openocr:
-    image: lex/${OPEN_OCR_INSTANCE}
+    image: tleyden5iwx/${OPEN_OCR_INSTANCE}
     volumes:
       - ./scripts/:/opt/open-ocr/
     ports:
